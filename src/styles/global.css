@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* { margin: 0; padding: 0; border: 0; }
+h1, h2, h3, h4, h5, p, header, footer, a { font-family: 'Roboto', monospace; }
+a { text-decoration: none; color: #5182FB; }
+a:hover { color: #779DFC; }
+
+.site-header { background: #5182FB; color: #FFF; height: 60px; }
+.site-header h1 { line-height: 60px; }
+.site-header a { color: #FFF; }
+
+.site-profile { display: block; font-size: 0; text-align: center; }
+.site-profile figcaption { font-size: 16px; color: #222; display: inline-block; line-height: 32px; vertical-align: middle; }
+.site-profile img { width: 32px; height: 32px; border-radius: 32px; vertical-align: middle; margin-right: 10px; }
